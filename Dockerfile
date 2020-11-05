@@ -22,6 +22,7 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/main" > /etc/apk/repositorie
     git \
     nodejs \
     nodejs-npm \
+    openssh \
     yarn \
     bash \
     && rm -rf /var/cache/* \
