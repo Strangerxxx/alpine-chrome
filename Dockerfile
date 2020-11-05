@@ -23,6 +23,7 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/main" > /etc/apk/repositorie
     nodejs \
     nodejs-npm \
     yarn \
+    bash \
     && rm -rf /var/cache/* \
     && mkdir /var/cache/apk
 
